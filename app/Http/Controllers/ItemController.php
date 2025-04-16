@@ -12,7 +12,7 @@ class ItemController extends Controller
      */
     public function index()
     {
-        //
+        return view('Item');
     }
 
     /**
@@ -34,7 +34,7 @@ class ItemController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Item $item)
+    public function show(Item $Item)
     {
         //
     }
@@ -42,7 +42,7 @@ class ItemController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Item $item)
+    public function edit(Item $Item)
     {
         //
     }
@@ -50,7 +50,7 @@ class ItemController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Item $item)
+    public function update(Request $request, Item $Item)
     {
         //
     }
@@ -58,7 +58,7 @@ class ItemController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Item $item)
+    public function destroy(Item $Item)
     {
         //
     }
